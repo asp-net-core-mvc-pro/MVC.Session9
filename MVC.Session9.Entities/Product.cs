@@ -10,7 +10,6 @@ namespace MVC.Session9.Entities
         public string Name { get; set; }
         public string Series { get; set; }
         public string Version { get; set; }
-        public string Category { get; set; }
         public int CategoryId { get; set; }
         public Category CategoryName { get; set; }
     }
