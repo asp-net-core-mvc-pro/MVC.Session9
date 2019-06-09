@@ -11,7 +11,7 @@ namespace MVC.Session9.DAL
         public DbSet<Category> Categories { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=HQIT-USER7\\MORSAMSQLSERVER; initial catalog = BackwardDB;integrated security = true");
+            optionsBuilder.UseSqlServer("server=local; initial catalog = BackwardDB;integrated security = true");
         }
     } 
 }
